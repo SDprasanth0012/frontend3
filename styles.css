@@ -30,12 +30,14 @@ main {
 }
 Img {
     border-radius: 50%;
-    max-width: 100%;
+    width:100px;
+    aspect-ratio: 1;
     margin: 2.5rem;
   }
 
 h1 {
    color: var(--color-White);
+   font-size: x-large;
    font-weight: 700;
 }
 .location {
@@ -53,7 +55,7 @@ h1 {
 nav {
     display: flex;
     flex-direction: column;
-    gap: 0.5rem;
+    gap: 1rem;
 }
 a {
     background-color: var(--color-Grey);
